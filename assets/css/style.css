@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Almarai', sans-serif;
+    max-width: 1400px;
 }
 
 :root {
@@ -12,7 +13,7 @@
 }
 
 
-
+/*--------- #region header --------------*/
 .nav_section {
     background-color: rgba(49, 97, 224, 1);
     height: 50px;
@@ -20,7 +21,6 @@
 }
 
 .nav_bar {
-    /* background-color: rgb(255, 251, 0); */
     height: 40px;
     width: 70vw;
     margin: auto;
@@ -32,26 +32,22 @@
 .logo-section {
     width: 20%;
     height: 100%;
-    /* border: 2px dotted black; */
     display: flex;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 15px;
     padding: 10px;
     background-image: url(/assets/img/logo.svg);
     background-repeat: no-repeat;
+    background-size: 7rem;
 }
 
 .link_bar {
     width: 60%;
     height: 100%;
-    /* border: 2px dotted black; */
     display: flex;
-
-
 }
 
 .link_container {
-
     margin: auto;
     display: flex;
 }
@@ -62,11 +58,9 @@ ul li {
 
 ul {
     width: 100%;
-    gap: 40px;
+    gap: 30px;
     display: flex;
 }
-
-
 
 a {
     text-decoration: none;
@@ -78,8 +72,6 @@ a {
 .form_log {
     width: 20%;
     height: 100%;
-    /* border: 2px dotted black; */
-
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
@@ -98,10 +90,10 @@ a {
     border-bottom-right-radius: 15px;
     border: none;
     font-size: 0.7rem;
+
 }
 
 .banner {
-    /* height: calc(100% - 50px); */
     display: flex;
     align-items: center;
     background-image: url(/assets/img/jumbo.png);
@@ -113,12 +105,61 @@ a {
 .banner_content {
     margin: auto;
     width: 50%;
-    height: 200px;
-    border: 2px dotted black;
-    background-color: palevioletred;
+    color: white;
+    text-align: center;
+    padding-top: 4rem;
+    margin-bottom: 7.5rem;
 }
 
-/*---------------- /header -----------------*/
+.banner_title {
+    margin-top: 1.8rem;
+    font-size: 2.8rem;
+    font-weight: 600;
+
+}
+
+.banner_description {
+    margin-top: 2rem;
+    line-height: 1.5rem;
+}
+
+.banner_buttons {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.download {
+    background-color: white;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border: none;
+    font-size: 1rem;
+}
+
+.open {
+    background-color: black;
+    color: white;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border: none;
+    font-size: 1rem;
+}
+
+/*--------- #endregion header --------------*/
 
 .section {
     height: 400px;

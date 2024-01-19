@@ -29,10 +29,10 @@
 
 .nav_menu {
     height: 2.5rem;
-    width: 70%;
+    width: 65%;
     margin: auto;
     align-items: center;
-    /* border: 1px dashed black; */
+    border: 1px dashed black;
     display: flex;
     justify-content: space-between;
 }
@@ -173,15 +173,27 @@ li {
     height: 90%;
     margin: auto;
     display: flex;
+
     /* border: 1px dashed black; */
 }
 
-.item {
+.item_1 {
     width: 60%;
     height: 95%;
     background-image: url(/assets/img/item1.svg);
     background-size: contain;
     background-repeat: no-repeat;
+    margin-right: 3rem;
+}
+
+.item_2 {
+    width: 60%;
+    height: 95%;
+    background-image: url(/assets/img/item2.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 50px;
+
 
 }
 
@@ -200,10 +212,6 @@ li {
     line-height: 1.5rem;
 }
 
-.wave_upside_down {
-    display: flex;
-
-}
 
 .upside {
     transform: rotate(180deg);

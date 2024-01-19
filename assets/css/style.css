@@ -155,18 +155,27 @@ li {
 /*       #region main          */
 .sm-section {
     height: 30rem;
-    border: 1px dashed black;
+    /* border: 1px dashed black; */
     display: flex;
     padding-top: 3rem;
 }
 
 .sm-gray-section {
     height: 30rem;
-    border: 1px dashed black;
+    /* border: 1px dashed black; */
     display: flex;
     padding-top: 3rem;
     background-color: var(--disc-light);
 }
+
+.bg-section {
+    height: 60rem;
+    background-color: var(--disc-light);
+}
+
+
+
+
 
 .container {
     width: 70%;
@@ -224,4 +233,13 @@ li {
 
 .upside {
     transform: rotate(180deg);
+}
+
+.space {
+    height: 2rem;
+}
+
+.space-grey {
+    height: 2rem;
+    background-color: var(--disc-light);
 }

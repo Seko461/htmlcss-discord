@@ -151,3 +151,60 @@ li {
 /*------------ end jumbo -------------*/
 
 /* #endregion header */
+
+/*       #region main          */
+.sm-section {
+    height: 30rem;
+    border: 1px dashed black;
+    display: flex;
+    padding-top: 3rem;
+}
+
+.sm-gray-section {
+    height: 30rem;
+    border: 1px dashed black;
+    display: flex;
+    padding-top: 3rem;
+    background-color: var(--disc-light);
+}
+
+.container {
+    width: 70%;
+    height: 90%;
+    margin: auto;
+    display: flex;
+    /* border: 1px dashed black; */
+}
+
+.item {
+    width: 60%;
+    height: 95%;
+    background-image: url(/assets/img/item1.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+
+.item_title {
+    padding: 2rem;
+    padding-left: 3.4rem;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    font-weight: 600;
+}
+
+.item_description {
+    padding-left: 3.4rem;
+    font-size: .9rem;
+    line-height: 1.5rem;
+}
+
+.wave_upside_down {
+    display: flex;
+
+}
+
+.upside {
+    transform: rotate(180deg);
+}

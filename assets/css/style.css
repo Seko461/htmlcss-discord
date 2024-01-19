@@ -13,7 +13,7 @@
 }
 
 
-/*--------- #region header --------------*/
+/*       #region header  */
 .nav_section {
     background-color: rgba(49, 97, 224, 1);
     height: 50px;
@@ -159,7 +159,7 @@ a {
     font-size: 1rem;
 }
 
-/*--------- #endregion header --------------*/
+/*        #endregion header     */
 
 .section {
     height: 400px;

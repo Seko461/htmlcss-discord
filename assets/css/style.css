@@ -7,21 +7,24 @@
     font-family: 'Almarai', sans-serif;
     max-width: 1400px;
 
+
 }
 
 :root {
-    --disc-primary: rgba(49, 97, 224, 1);
+    --disc-primary: #3161e0;
     --disc-light: #f6f6f6;
+    --disc-dark: #23272A;
 }
 
 /* #region header */
 
+/*------------- menu-------------- */
 .nav_container {
 
     height: 4rem;
     padding-top: .8rem;
     display: flex;
-    background-color: rgba(49, 97, 224, 1);
+    background-color: var(--disc-primary)
 }
 
 .nav_menu {
@@ -72,5 +75,79 @@ li {
     border-radius: 25px;
     font-size: .7rem;
 }
+
+/*------------- end menu-------------- */
+
+/*-------------- jumbo----------------- */
+
+.jumbo_container {
+    /* border: 1px dashed black; */
+    background-image: url(/assets/img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 28rem;
+    display: flex;
+    padding-top: .5rem;
+
+}
+
+.jumbo_content {
+    width: 70%;
+    height: 80%;
+    margin: auto;
+    padding-top: 2.5rem;
+    /* border: 1px dashed black; */
+}
+
+.jumbo_title {
+    /* border: 1px solid rgb(255, 0, 0); */
+    color: white;
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.jumbo_description {
+    /* border: 1px solid black; */
+    padding-top: 2rem;
+    color: white;
+    text-align: center;
+    line-height: 1.5rem;
+    font-weight: 500;
+}
+
+.jumbo_buttons {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    padding-top: 1.5rem;
+}
+
+.download {
+    border: none;
+    background-color: white;
+    padding-top: 0.7rem;
+    padding-bottom: .7rem;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+    font-size: .9rem;
+    font-weight: 400;
+    border-radius: 25px;
+}
+
+.open_browser {
+    border: none;
+    background-color: var(--disc-dark);
+    color: white;
+    padding-top: 0.7rem;
+    padding-bottom: .7rem;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+    font-size: .9rem;
+    font-weight: 400;
+    border-radius: 25px;
+}
+
+/*------------ end jumbo -------------*/
 
 /* #endregion header */

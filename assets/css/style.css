@@ -183,7 +183,7 @@ li {
     background-image: url(/assets/img/item1.svg);
     background-size: contain;
     background-repeat: no-repeat;
-    margin-right: 3rem;
+    margin-right: 2.5rem;
 }
 
 .item_2 {
@@ -192,7 +192,7 @@ li {
     background-image: url(/assets/img/item2.svg);
     background-size: contain;
     background-repeat: no-repeat;
-    margin-left: 50px;
+    margin-left: 4rem;
 
 
 }

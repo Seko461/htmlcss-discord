@@ -6,6 +6,7 @@
     box-sizing: border-box;
     font-family: 'Almarai', sans-serif;
     max-width: 1400px;
+
 }
 
 :root {
@@ -167,6 +168,18 @@ a {
     align-items: center;
 }
 
+#above {
+    padding-top: 5rem;
+    height: max-content;
+    padding-bottom: 5rem;
+}
+
+.wave {
+    background-image: url(/assets/img/wave.svg);
+    height: 4rem;
+    color: gray;
+}
+
 #up {
     background-color: grey;
 }
@@ -178,7 +191,7 @@ a {
 
 
 .section_content {
-    background-color: green;
+    /* background-color: green; */
     margin: auto;
     width: 70%;
     height: 350px;
@@ -196,11 +209,46 @@ a {
     background-color: pink;
 }
 
+.above_description {
+    /* border: 2px dotted black; */
+    width: 40%;
+    height: 100%;
+    /* background-color: pink; */
+}
+
+.above_title {
+    color: black;
+    font-size: 2rem;
+    font-weight: 600;
+    padding-top: 2rem;
+    padding-left: 4rem;
+
+}
+
+.above_description_2 {
+    color: black;
+    padding-top: 1rem;
+    padding-left: 4rem;
+    line-height: 1.5rem;
+    font-size: 1rem;
+}
+
 .description {
     border: 2px dotted black;
     width: 60%;
     height: 100%;
     background-color: lightblue;
+}
+
+.item_1 {
+    /* border: 2px dotted black; */
+    background-image: url(/assets/img/item1.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    width: 60%;
+    height: 100%;
+    /* background-color: lightblue; */
 }
 
 /*----------------  /main --------------*/

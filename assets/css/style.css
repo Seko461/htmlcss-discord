@@ -197,6 +197,15 @@ li {
 
 }
 
+.item_3 {
+    width: 60%;
+    height: 95%;
+    background-image: url(/assets/img/item3.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 2.5rem;
+}
+
 
 .item_title {
     padding: 2rem;

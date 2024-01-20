@@ -33,7 +33,7 @@
     width: 65%;
     margin: auto;
     align-items: center;
-    border: 1px dashed black;
+    /* border: 1px dashed black; */
     display: flex;
     justify-content: space-between;
 }

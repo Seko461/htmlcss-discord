@@ -230,9 +230,18 @@ li {
     line-height: 1.5rem;
 }
 
+.wave {
+    display: flex;
+
+}
+
+.wave-1hkxOo {
+    align-items: flex-end;
+}
 
 .upside {
     transform: rotate(180deg);
+
 }
 
 .space {

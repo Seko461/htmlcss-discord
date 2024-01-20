@@ -10,6 +10,7 @@
 
 }
 
+
 :root {
     --disc-primary: #3161e0;
     --disc-light: #f6f6f6;
@@ -178,11 +179,11 @@ li {
 
 
 .container {
-    width: 70%;
+    width: 65%;
     height: 90%;
     margin: auto;
     display: flex;
-
+    justify-content: space-between;
     /* border: 1px dashed black; */
 }
 
@@ -212,26 +213,28 @@ li {
     background-image: url(/assets/img/item3.svg);
     background-size: contain;
     background-repeat: no-repeat;
-    margin-right: 2.5rem;
+    /* margin-right: 2.5rem; */
 }
 
 
 .item_title {
-    padding: 2rem;
-    padding-left: 3.4rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    /* padding-left: 1.5rem; */
     font-size: 2rem;
-    line-height: 2.5rem;
+    line-height: 2rem;
     font-weight: 600;
 }
 
 .item_description {
-    padding-left: 3.4rem;
+    /* padding-left: 1.5rem; */
     font-size: .9rem;
     line-height: 1.5rem;
 }
 
 .wave {
     display: flex;
+    width: 90;
 
 }
 
@@ -251,4 +254,76 @@ li {
 .space-grey {
     height: 2rem;
     background-color: var(--disc-light);
+}
+
+.bg-space-grey {
+    height: 5rem;
+    background-color: var(--disc-light);
+}
+
+.bg-section .container {
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.bg-section-item-title {
+    text-align: center;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    font-weight: 600;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+}
+
+.bg-section-item-description {
+    text-align: center;
+    font-size: .9rem;
+    line-height: 1.5rem;
+}
+
+.bg-section-item {
+    background-image: url(/assets/img/item4-big.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 35rem;
+    width: 100%;
+    margin-top: 2rem;
+
+}
+
+.bg-section-description_2 {
+
+
+    font-size: 1.4rem;
+    font-weight: 600;
+    width: 26rem;
+    height: 2.5rem;
+    background-image: url(/assets/img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 1.9rem;
+    margin: auto;
+}
+
+.bg-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.bg-section-button {
+    border: none;
+    background-color: #7991e1;
+    color: white;
+    padding-top: 0.7rem;
+    padding-bottom: .7rem;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+    font-size: .9rem;
+    font-weight: 400;
+    border-radius: 25px;
+    width: 10rem;
+    margin: auto;
 }
